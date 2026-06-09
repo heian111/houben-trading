@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Houben Trading Co., Ltd.</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html">
+                    <span class="brand-icon">⚙️</span>
+                    <span class="brand-text">HOUBEN<span class="brand-accent">TRADING</span></span>
+                </a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span><span></span><span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Send us your inquiry and we'll respond within 24 hours</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info-panel">
+                    <h2>Get In Touch</h2>
+                    <p>Have a specific requirement? Need a quote? We're here to help. Fill out the form and our team will get back to you promptly.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@houbentrading.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+86-546-xxx-xxxx</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-location-dot"></i>
+                            <div>
+                                <h4>Office Address</h4>
+                                <p>Dongying, Shandong Province, China</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Business Hours</h4>
+                                <p>Monday - Saturday: 8:00 - 18:00 (CST, UTC+8)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inquiry-form-panel">
+                    <h2>Send Inquiry</h2>
+                    <form id="inquiryForm" action="https://formsubmit.co/your-email@gmail.com" method="POST">
+                        <input type="hidden" name="_subject" value="New Inquiry from Houben Trading Website">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required placeholder="John Smith">
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Company Name</label>
+                                <input type="text" id="company" name="company" placeholder="ABC Industries Ltd.">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="john@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+1-555-123-4567">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="product">Product Interest *</label>
+                            <select id="product" name="product" required>
+                                <option value="">— Select a product category —</option>
+                                <option value="Precision Investment Castings">Precision Investment Castings</option>
+                                <option value="Wind Turbine Shafts">Wind Turbine & Industrial Shafts</option>
+                                <option value="Advanced Ceramic Materials">Advanced Ceramic Materials</option>
+                                <option value="Other Industrial Products">Other Industrial Products</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="quantity">Estimated Quantity</label>
+                            <input type="text" id="quantity" name="quantity" placeholder="e.g. 500 pcs / 10 tons / Not sure yet">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Please describe your requirements in detail — include specifications, material, dimensions, target price if any, and delivery destination..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <i class="fas fa-paper-plane"></i> Send Inquiry
+                        </button>
+                        <p class="form-note">We respect your privacy. Your information will never be shared with third parties.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="brand-icon">⚙️</span>
+                    <span class="brand-text">HOUBEN<span class="brand-accent">TRADING</span></span>
+                    <p>Bridging Chinese manufacturing excellence with global markets. Quality products, reliable service, trusted partnership.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-envelope"></i> info@houbentrading.com</p>
+                    <p><i class="fas fa-phone"></i> +86-546-xxx-xxxx</p>
+                    <p><i class="fas fa-location-dot"></i> Dongying, Shandong, China</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Houben Trading Co., Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
