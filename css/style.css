@@ -1008,3 +1008,32 @@ body {
     color: var(--primary);
     margin-bottom: 8px;
 }
+
+/* Strength Banner */
+.strength-banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+    padding: 28px 24px;
+    border-radius: var(--radius);
+    color: white;
+}
+
+.strength-item {
+    padding: 12px 24px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.12);
+}
+
+.strength-item strong {
+    display: block;
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--accent);
+    margin-bottom: 2px;
+}
